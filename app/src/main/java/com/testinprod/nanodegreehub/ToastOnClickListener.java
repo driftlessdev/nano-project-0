@@ -3,8 +3,16 @@ package com.testinprod.nanodegreehub;
 import android.view.View;
 import android.widget.Toast;
 
+
 /**
- * Created by Tim on 6/9/2015.
+ * Toast OnClickListener Wrapper
+ *
+ * <p>Wrapper to do a simple toast message in response to a click.</p>
+ *
+ * <p>Adapted from <a href="http://stackoverflow.com/questions/10614696/how-to-pass-parameters-to-onclicklistener">http://stackoverflow.com/questions/10614696/how-to-pass-parameters-to-onclicklistener</a></p>
+ *
+ * @author Tim Schaab
+ * @version 1.0
  */
 public class ToastOnClickListener implements View.OnClickListener
 {

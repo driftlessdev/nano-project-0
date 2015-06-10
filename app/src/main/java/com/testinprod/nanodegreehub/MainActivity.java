@@ -27,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
         setClickToast((Button) findViewById(R.id.btnCapstone),res.getString(R.string.button_toast, res.getString(R.string.capstone_app)));
     }
 
+    /**
+     * Small helper for having the button click throw a toast
+     *
+     * @param btn Button that we should add the on click listener to
+     * @param toast Message to display in the toast
+     */
     private void setClickToast(Button btn, String toast)
     {
         btn.setOnClickListener(new ToastOnClickListener(toast));
